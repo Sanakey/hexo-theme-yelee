@@ -112,6 +112,20 @@ youyan:
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
 
 
+# 是否开启gitalk评论
+gitalk:
+  on: true
+  clientID: '4d79ef314d7eecff6c86'
+  #填入你申请的 Application Client ID
+  clientSecret: '69414bfea90934424011146006786eca04c840d9'
+  #填入你刚刚申请的 Application Client Secret
+  repo: 'sanakey.github.io'
+  #你的 Github repo
+  owner: 'Sanakey'
+  #Github repo owner
+  admin: ['Sanakey']
+  distractionFreeMode: true
+
 # >>> Style Customisation 样式自定义 <<<
 
 # Background | 背景
