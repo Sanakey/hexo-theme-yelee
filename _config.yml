@@ -198,7 +198,6 @@ tagcloud: true
 friends:
   Hexo: https://hexo.io
   GitHub: https://pages.github.com/
-  #MOxFIVE: http://moxfive.xyz/
 #friends: false
 
 #是否开启“关于我”。
@@ -300,6 +299,13 @@ progressBar:
   on: true
   type: "minimal"  # Keep Quotes | 保留引号避免出错
   color: blue
+
+# 文章末尾是否显示打赏按钮
+donate:
+  on: true
+  reward_comment: 感谢打赏，您的支持将鼓励我继续创作！
+  wechatpay: /img/233.gif
+  alipay: /img/333.gif
 
 CDN:
   jquery: //cdn.bootcss.com/jquery/2.2.4/jquery.min.js
